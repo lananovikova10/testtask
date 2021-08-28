@@ -71,7 +71,9 @@ text fragment there.
 From now, you can use the Live template on the go.
 
 There are two ways to do this:
-1. Type the abbreviation you've set for the template and press Tab. The template will be inserted into the document.
+1. Type the abbreviation you've set for the template and press Tab. The 
+   template will be inserted into the document and the cursor will appear 
+   inside the fragment.
 
 ![Use](static/usetemplate.gif)
 
