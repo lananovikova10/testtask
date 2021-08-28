@@ -14,7 +14,7 @@ into the text.
 For example, you need to create a template for a custom Markdown element
 that you use in your chosen Markdown flavor or static site generator.
 
-It looks like this:
+It can look like this:
 
 ````
 <div class="panel panel-warning">
@@ -28,26 +28,30 @@ WARNING CONTENT
 </div>
 ````
 
-To create a live template and reuse this fragment:
+To create a live template and surround your text with this fragment:
 1. Open IDE Preferences and go to the **Editor | Live Templates** section.
 2. Select or create a template group to put your template into.
 3. To create a new group click + on the right of the panel, select **Template 
    group**, and type  the group name. In our case, it will be Custom Markdown.
+
+![Create](static/createagroup.gif)
+
 4. Select this group in the list and click +. Select **Live 
    Template**.
 5. Specify the abbreviation — it will be a shortcut used to invoke 
    it. It can contain an abbreviation that consists of Latin letters,
    numbers, dots, and hyphens. For example: warn. It should be unique within a group.
 6. Optionally, fill the **Description** field, you can write in which cases to 
-   use 
-   this template. For example: Use it to wrap a warning block.
+   use this template. For example: Use it to wrap a warning block.
 7. In the **Template text** field add the template content that will be 
    inserted in the document later.
-8. Define the context where the template will be used — you can pick Other 
+8. Put the $SELECTION$ variable on a place of the text fragment 
+   to be wrapped. That way it will appear in the **Surround With** menu. 
+9. Define the context where the template will be used — you can pick Other 
    for markdown.
-9. Apply your changes.
+10. Apply your changes.
 
-![Create](static/create-template.gif)
+![Create](static/createwithvariable.gif)
 
 If you don't select a template group, the live template will be added to 
 the user group by default. You can change it later.
@@ -69,7 +73,13 @@ text fragment there.
 
 From now, you can use the Live template on the go.
 
-Type the abbreviation you've set for the template and press Tab. The 
+There are two ways to do this:
+1. Type the abbreviation you've set for the template and press Tab. The 
 template will be inserted into the document.
 
 ![Use](static/usetemplate.gif)
+
+2. Select the fragment you need to surround with the markup. Type ⌥⌘J. In the 
+   Surround With menu select needed abbreviation. It will wrap the selected text as specified in the template.
+
+![Wrap](static/wrapatext.gif)
