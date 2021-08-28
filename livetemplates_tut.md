@@ -75,7 +75,7 @@ There are two ways to do this:
    template will be inserted into the document and the cursor will appear 
    inside the fragment.
 
-![Use](static/usetemplate.gif)
+![Use](static/usetemplatecursor.gif)
 
 2. Select the fragment you need to surround with the markup. Type **⌥⌘J**. 
    In the Surround With menu select the abbreviation. It will wrap the 
