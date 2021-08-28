@@ -12,7 +12,7 @@ into the text.
 ### Create from scratch
 
 For example, you need to create a template for a custom Markdown element
-that you use in chosen Markdown flavor or static site generator.
+that you use in your chosen Markdown flavor or static site generator.
 
 It looks like this:
 
@@ -33,7 +33,7 @@ To create a live template and reuse this fragment:
 2. Select or create a template group to put your template into.
 3. To create a new group click + on the right of the panel, select **Template 
    group**, and type  the group name. In our case, it will be Custom Markdown.
-4. Select this group (step on it in the list) and click +. Select **Live 
+4. Select this group in the list and click +. Select **Live 
    Template**.
 5. Specify the abbreviation — it will be a shortcut used to invoke 
    it. It can contain an abbreviation that consists of Latin letters,
@@ -43,7 +43,8 @@ To create a live template and reuse this fragment:
    this template. For example: Use it to wrap a warning block.
 7. In the **Template text** field add the template content that will be 
    inserted in the document later.
-8. Define the context.
+8. Define the context where the template will be used — you can pick Other 
+   for markdown.
 9. Apply your changes.
 
 ![Create](static/create-template.gif)
