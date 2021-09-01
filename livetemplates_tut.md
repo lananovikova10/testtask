@@ -76,9 +76,7 @@ text fragment there.
 4. You can fill the **Description** field or make changes in the template content.
 5. Click **OK** to apply the changes.
 
-Get to know other ways to [create live templates](https://www.jetbrains.
-com/help/idea/creating-and-editing-live-templates.html).
-
+Get to know other ways to [create live templates](https://www.jetbrains.com/help/idea/creating-and-editing-live-templates.html).
 
 ## Use a Live Template
 
