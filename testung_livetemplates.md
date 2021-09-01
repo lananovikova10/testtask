@@ -9,7 +9,7 @@
 {: .panel-heading}
 <div class="panel-body">
 
-You shall not pass
+WARNING CONTENT
 
 </div>
 </div>

@@ -63,21 +63,10 @@ To create a live template and surround your text with this fragment:
 
 If you don't select a template group, the live template will be added to the user group by default. You can change it later.
 
+Get to know other ways to [create live templates](https://www.jetbrains.com/help/idea/creating-and-editing-live-templates.html).
+
 In the example below, we used the **$SELECTION$** variable. Get to know other 
 variables in [Live template variables section](https://www.jetbrains.com/help/idea/template-variables.html).
-
-### Transform a markup fragment into a template
-
-You also can create a template inside an editor if you've already typed your
-text fragment there.
-
-1. Select this fragment.
-2. In the top menu, select the **Code | Save as Live Template...** option.
-3. Choose which group to save the template, and specify the abbreviation.
-4. You can fill the **Description** field or make changes in the template content.
-5. Click **OK** to apply the changes.
-
-Get to know other ways to [create live templates](https://www.jetbrains.com/help/idea/creating-and-editing-live-templates.html).
 
 ## Use a Live Template
 
