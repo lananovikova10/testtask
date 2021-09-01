@@ -40,17 +40,17 @@ To create a live template and surround your text with this fragment:
 3. To create a new group, click **+** on the right of the panel and select 
    **Template group**.
 ![creategroup](static/tut_step1.png)
-4. Type the group name. In our case, we called it *Custom Markdown*. Click 
+4. Type the group name. In our case, we called it `Custom Markdown`. Click 
    **OK**.
 ![creategroup](static/tut_step2.png)
 5. Select this group in the list and click **+**. Select **Live Template**.
 ![creategroup](static/tut_step3.png)
 6. Specify the abbreviation — it will be a shortcut used to invoke the template. It can contain Latin letters,
-   numbers, dots, and hyphens. For example: *warn*. It should be unique 
+   numbers, dots, and hyphens. For example: `warn`. It should be unique 
    within a group.
 7. You can fill the **Description** field — write in which cases this 
-   template is intended to be used. For example: *Use it to wrap a warning 
-   block*.
+   template is intended to be used. For example: `Use it to wrap a warning 
+   block`.
 8. In the **Template text** field, add the template content that will be
    inserted in the document later.
 9. Put the **$SELECTION$** variable to the place where the fragment to be 
@@ -72,7 +72,6 @@ From now on, you can use the Live template on the go.
 
 Select the fragment you need to surround with the markup. Type **⌥⌘J**. In 
 the **Select Template** menu, select the abbreviation. It will wrap the 
-selected 
-text as specified in the template.
+selected text as specified in the template.
 
 ![creategroup](static/tut_step4.png)
