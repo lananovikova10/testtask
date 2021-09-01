@@ -2,7 +2,7 @@
 
 Imagine you are typing the same content again and again, it
 can be a custom lightweight markup element, a repeating fragment, like
-warning or admonition block, or an HTML code.
+a warning, an admonition block, or an HTML code.
 
 The live template is a function that allows you to type a few letters and insert longer fragments into your document. It makes it easier for you to insert
 repeating patterns into the text.
@@ -21,11 +21,9 @@ new document. This flow will apply to any markup language or static site generat
 
 ### Create from scratch
 
-For example, you need to create a template for a custom Markdown element
-that you use in your chosen Markdown flavor or static site generator.
+For example, in this tutorial, we will create a template for a custom Markdown element that you use in your chosen Markdown flavor or a static site generator.
 
 It can look like this:
-
 ````
 <div class="panel panel-warning">
 **Warning**
@@ -41,8 +39,8 @@ WARNING CONTENT
 To create a live template and surround your text with this fragment:
 1. Open IDE Preferences and go to the **Editor | Live Templates** section.
 2. Select an existing or create a new template group to put your template into.
-3. To create a new group click + on the right of the panel and select **Template
-   group**.
+3. To create a new group, click + on the right of the panel and select 
+   **Template group**.
 ![creategroup](static/tut_step1.png)
 4. Type the group name. In our case, we called it Custom Markdown. Click **OK**.
 ![creategroup](static/tut_step2.png)
@@ -52,12 +50,12 @@ To create a live template and surround your text with this fragment:
    numbers, dots, and hyphens. For example *warn*. It should be unique 
    within a group.
 7. You can fill the **Description** field — write in which cases this template is intended to be used. For example: Use it to wrap a warning block.
-8. In the **Template text** field add the template content that will be
+8. In the **Template text** field, add the template content that will be
    inserted in the document later.
 9. Put the **$SELECTION$** variable to the place where the fragment to be 
    wrapped will be. It will appear in the **Surround With** menu.
 10. Define the context where the template will be used — you can pick **Other**
-    for markdown.
+    for Markdown.
 11. Apply your changes.
 
 If you don't select a template group, the live template will be added to the user group by default. You can change it later.
@@ -71,7 +69,7 @@ You also can create a template inside an editor if you've already typed your
 text fragment there.
 
 1. Select this fragment.
-2. In the top menu select the **Code | Save as Live Template...** option.
+2. In the top menu, select the **Code | Save as Live Template...** option.
 3. Choose which group to save the template, and specify the abbreviation.
 4. You can fill the **Description** field or make changes in the template content.
 5. Click **OK** to apply the changes.
@@ -83,7 +81,8 @@ Get to know other ways to [create live templates](https://www.jetbrains.com/help
 From now on, you can use the Live template on the go.
 
 Select the fragment you need to surround with the markup. Type **⌥⌘J**. In 
-the **Select Template** menu select the abbreviation. It will wrap the selected 
+the **Select Template** menu, select the abbreviation. It will wrap the 
+selected 
 text as specified in the template.
 
 ![creategroup](static/tut_step4.png)
