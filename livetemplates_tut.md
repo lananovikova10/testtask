@@ -42,7 +42,8 @@ To create a live template and surround your text with this fragment:
 3. To create a new group, click + on the right of the panel and select 
    **Template group**.
 ![creategroup](static/tut_step1.png)
-4. Type the group name. In our case, we called it Custom Markdown. Click **OK**.
+4. Type the group name. In our case, we called it *Custom Markdown*. Click 
+   **OK**.
 ![creategroup](static/tut_step2.png)
 5. Select this group in the list and click +. Select **Live Template**.
 ![creategroup](static/tut_step3.png)
@@ -60,7 +61,7 @@ To create a live template and surround your text with this fragment:
 
 If you don't select a template group, the live template will be added to the user group by default. You can change it later.
 
-In the example below, we used the $SELECTION$ variable. Get to know other 
+In the example below, we used the **$SELECTION$** variable. Get to know other 
 variables in [Live template variables section](https://www.jetbrains.com/help/idea/template-variables.html).
 
 ### Transform a markup fragment into a template
