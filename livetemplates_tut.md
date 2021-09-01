@@ -13,13 +13,9 @@ new document. This flow will apply to any markup language or static site generat
 ## Table of contents
 
 * [Create a live template](#create-a-live-template)
-    * [Create from scratch](#create-from-scratch)
-    * [Transform a markup fragment into a template](#transform-a-markup-fragment-into-a-template)
 * [Use a Live Template](#use-a-live-template)
 
 ## Create a Live template
-
-### Create from scratch
 
 For example, in this tutorial, we will create a template for a custom 
 Markdown element that you may use in your chosen Markdown flavor or a static 
