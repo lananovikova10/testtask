@@ -37,18 +37,20 @@ WARNING CONTENT
 To create a live template and surround your text with this fragment:
 1. Open IDE Preferences and go to the **Editor | Live Templates** section.
 2. Select an existing or create a new template group to put your template into.
-3. To create a new group, click + on the right of the panel and select 
+3. To create a new group, click **+** on the right of the panel and select 
    **Template group**.
 ![creategroup](static/tut_step1.png)
 4. Type the group name. In our case, we called it *Custom Markdown*. Click 
    **OK**.
 ![creategroup](static/tut_step2.png)
-5. Select this group in the list and click +. Select **Live Template**.
+5. Select this group in the list and click **+**. Select **Live Template**.
 ![creategroup](static/tut_step3.png)
 6. Specify the abbreviation — it will be a shortcut used to invoke the template. It can contain Latin letters,
-   numbers, dots, and hyphens. For example *warn*. It should be unique 
+   numbers, dots, and hyphens. For example: *warn*. It should be unique 
    within a group.
-7. You can fill the **Description** field — write in which cases this template is intended to be used. For example: Use it to wrap a warning block.
+7. You can fill the **Description** field — write in which cases this 
+   template is intended to be used. For example: *Use it to wrap a warning 
+   block*.
 8. In the **Template text** field, add the template content that will be
    inserted in the document later.
 9. Put the **$SELECTION$** variable to the place where the fragment to be 
