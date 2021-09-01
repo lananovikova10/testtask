@@ -63,8 +63,7 @@ To create a live template and surround your text with this fragment:
 If you don't select a template group, the live template will be added to the user group by default. You can change it later.
 
 In the example below, we used the $SELECTION$ variable. Get to know other 
-variables in [Live template variables section](https://www.jetbrains.
-com/help/idea/template-variables.html).
+variables in [Live template variables section](https://www.jetbrains.com/help/idea/template-variables.html).
 
 ### Transform a markup fragment into a template
 
