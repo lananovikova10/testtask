@@ -1,8 +1,8 @@
 # Reuse the repeating fragments
 
 Imagine you are typing the same content again and again, it
-can be a custom lightweight markup element, a repeating fragment, like
-a warning, an admonition block, or an HTML code.
+can be a custom lightweight markup element, a repeating fragment, like an 
+admonition block, for example, a warning, or an HTML code.
 
 The live template is a function that allows you to type a few letters and insert longer fragments into your document. It makes it easier for you to insert
 repeating patterns into the text.
@@ -21,7 +21,9 @@ new document. This flow will apply to any markup language or static site generat
 
 ### Create from scratch
 
-For example, in this tutorial, we will create a template for a custom Markdown element that you use in your chosen Markdown flavor or a static site generator.
+For example, in this tutorial, we will create a template for a custom 
+Markdown element that you may use in your chosen Markdown flavor or a static 
+site generator.
 
 It can look like this:
 ````
