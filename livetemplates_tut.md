@@ -49,7 +49,7 @@ To create a live template and surround your text with this fragment:
 5. Select this group in the list and click +. Select **Live Template**.
 ![creategroup](static/tut_step3.png)
 6. Specify the abbreviation — it will be a shortcut used to invoke the template. It can contain Latin letters,
-   numbers, dots, and hyphens. For example: *warn*. It should be unique 
+   numbers, dots, and hyphens. For example *warn*. It should be unique 
    within a group.
 7. You can fill the **Description** field — write in which cases this template is intended to be used. For example: Use it to wrap a warning block.
 8. In the **Template text** field add the template content that will be
@@ -62,6 +62,10 @@ To create a live template and surround your text with this fragment:
 
 If you don't select a template group, the live template will be added to the user group by default. You can change it later.
 
+In the example below, we used the $SELECTION$ variable. Get to know other 
+variables in [Live template variables section](https://www.jetbrains.
+com/help/idea/template-variables.html).
+
 ### Transform a markup fragment into a template
 
 You also can create a template inside an editor if you've already typed your
@@ -72,6 +76,10 @@ text fragment there.
 3. Choose which group to save the template, and specify the abbreviation.
 4. You can fill the **Description** field or make changes in the template content.
 5. Click **OK** to apply the changes.
+
+Get to know other ways to [create live templates](https://www.jetbrains.
+com/help/idea/creating-and-editing-live-templates.html).
+
 
 ## Use a Live Template
 
